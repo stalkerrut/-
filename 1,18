@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double k; cin >> k;
+
+    double s;
+
+    // a)
+    s = 5;  s = 57;
+    cout << s << "\n";
+
+    // б)
+    s = 6;  s = -5.2*s;  s = 0;
+    cout << s << "\n";
+
+    // в)
+    s = -7.5;  s = 2*s;
+    cout << s << "\n";
+
+    // г)
+    s = 45;  s = -25;  s = s + k;
+    cout << s << "\n";
+
+    return 0;
+}
