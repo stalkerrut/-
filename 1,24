@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double a, x; cin >> a >> x;
+
+    double X = sqrt((2*a + sin(fabs(3*a))) / 3.56);
+    double Y = sin((3.2 + sqrt(1 + x)) / fabs(5*x));
+
+    cout << X << "\n" << Y << "\n";
+}
