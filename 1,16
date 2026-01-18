@@ -1,0 +1,27 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double a,b,c,d,x,R;
+    cin >> a >> b >> c >> d >> x >> R;
+
+    cout << (a/b)/c << "\n";                          // a) a/b/c
+    cout << (a*b)/c << "\n";                          // б) a*b/c
+    cout << (a/b)*c << "\n";                          // в) a/b*c
+    cout << a + b/c << "\n";                          // г) a+b/c
+    cout << a + b/c << "\n";                          // д) a + b/c
+    cout << a + b/(b+c) << "\n";                      // е) a + b/(b+c)
+    cout << (a+b)/(b+c) << "\n";                      // ж) (a+b)/(b+c)
+
+    // справа:
+    cout << a/sin(b) << "\n";                         // з)
+    cout << 0.5*a*b*sin(x) << "\n";                   // и)
+    cout << (2*b*c*cos(a/2.0))/(b+c) << "\n";         // к)
+    cout << 4*R*sin(a/2.0)*sin(b/2.0)*sin(c/2.0) << "\n"; // л)
+    cout << (a*x + b)/(c*x + d) << "\n";              // м)
+    cout << 2*sin((a+b)/2.0)*cos((a-b)/2.0) << "\n";  // н)
+    cout << fabs(2*sin(-3*fabs(x)/2.0)) << "\n";      // о)
+
+    return 0;
+}
