@@ -1,0 +1,9 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double a; cin >> a;
+    double y = (a*a + 10) / sqrt(a*a + 1);
+    cout << y << "\n";
+}
