@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double x, a;
+    cin >> x >> a;
+    double y = 7*x*x - 3*x + 6;
+    double xx = 12*a*a + 7*a - 16;
+    cout << y << "\n" << xx << "\n";
+}
