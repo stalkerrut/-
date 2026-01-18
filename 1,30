@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double x,y,a,b;
+    cin >> x >> y >> a >> b;
+
+    double z = x*x*x - 2.5*x*y + 1.78*x*x - 2.5*y + 1;
+    double xx = 3.56*a + b*b*b - 5.8*b*b + 3.8*a - 1.5;
+
+    cout << z << "\n" << xx << "\n";
+}
