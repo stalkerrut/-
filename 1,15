@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double a,b,c,x,m,n;
+    cin >> a >> b >> c >> x >> m >> n;
+
+    cout << -1/(x*x) << "\n";                         // a)
+    cout << a/(b*c) << "\n";                          // б)
+    cout << (a/c)/b << "\n";                          // в)
+    cout << (a+b)/2 << "\n";                          // г)
+    cout << 5.45*(a+2*b)/(2-a) << "\n";               // д)
+    cout << (-b + sqrt(b*b-4*a*c))/(2*a) << "\n";     // е)
+    cout << ((-b + 1/a)/(2.0/c)) << "\n";             // ж)
+    cout << 1.0/(1.0 + (a+b)/2.0) << "\n";            // з)
+    cout << 1.0/(1.0 + 1.0/(2.0 + 1.0/(2.0 + 3.0/5.0))) << "\n"; // и)
+    cout << 2*pow(m,n) << "\n";                       // к)
+
+    return 0;
+}
