@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double x, y, a, b, n, alpha, beta;
+    cin >> x >> y >> a >> b >> n >> alpha >> beta;
+
+    cout << 2*x << "\n";                              // a)
+    cout << sin(x) << "\n";                           // б)
+    cout << a*a << "\n";                              // в)
+    cout << sqrt(x) << "\n";                          // г)
+    cout << fabs(n) << "\n";                          // д)
+    cout << 5*cos(y) << "\n";                         // е)
+    cout << -7.5*a*a << "\n";                         // ж)
+    cout << 3*sqrt(x) << "\n";                        // з)
+    cout << sin(alpha)*cos(beta)+cos(alpha)*sin(beta) << "\n"; // и)
+    cout << a*sqrt(2*b) << "\n";                      // к)
+    cout << 3*sin(2*alpha)*cos(3*beta) << "\n";       // л)
+    cout << -5*sqrt(x + sqrt(y)) << "\n";             // м)
+
+    return 0;
+}
