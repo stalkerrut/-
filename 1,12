@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t, v, x, y;
+    cin >> t >> v >> x >> y;
+
+    // a)
+    cout << "5 10\n";
+    cout << "7 см\n\n";
+
+    // б)
+    cout << "100 " << t << "\n";
+    cout << "1949 " << v << "\n\n";
+
+    // в)
+    cout << x << " 25\n";
+    cout << x << " " << y << "\n";
+
+    return 0;
+}
