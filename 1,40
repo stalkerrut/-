@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double a,b; cin >> a >> b;
+
+    double x = (2.0/(a*a + 25) + b) / (sqrt(b) + (a + b)/2.0);
+    double y = (fabs(a) + 2*sin(b)) / (5.5*a);
+
+    cout << x << "\n" << y << "\n";
+}
