@@ -1,0 +1,8 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double R, r; cin >> R >> r;
+    cout << M_PI*(R*R - r*r) << "\n";
+}
