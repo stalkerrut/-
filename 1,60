@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double a, b, c;
+    cin >> a >> b >> c;
+    {
+        double A=a, B=b, C=c;
+        a = B; b = C; c = A;
+        cout << a << " " << b << " " << c << "\n";
+    }
+    cin.clear();
+}
