@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double V1, V2, S;
+    cin >> V1 >> V2 >> S;
+
+    double t = 0.5; // 30 минут = 0.5 часа
+    double dist = S + (V1 - V2) * t;
+    cout << dist << "\n";
+    return 0;
+}
