@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double e, f, g, h;
+    cin >> e >> f >> g >> h;
+
+    double a = (e + f / 2.0) / 3.0;
+    double b = fabs(h * h - g);
+    double c = sqrt((g - h) * (g - h) - 3.0 * sin(e));
+
+    cout << a << "\n" << b << "\n" << c << "\n";
+    return 0;
+}
