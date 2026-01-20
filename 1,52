@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double c1, c2, c3, x, y, z;
+    cin >> c1 >> c2 >> c3 >> x >> y >> z;
+
+    double total = c1*x + c2*y + c3*z;
+    cout << total << "\n";
+    return 0;
+}
