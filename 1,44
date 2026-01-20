@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double a, b;
+    cin >> a >> b;
+
+    double P = 2.0 * (a + b);
+    double d = sqrt(a * a + b * b);
+
+    cout << P << "\n" << d << "\n";
+    return 0;
+}
