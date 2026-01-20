@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double mon, sys, keyb, mouse;
+    long long N;
+    cin >> mon >> sys >> keyb >> mouse >> N;
+
+    double one = mon + sys + keyb + mouse;
+    cout << 3 * one << "\n";
+    cout << N * one << "\n";
+    return 0;
+}
