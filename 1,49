@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double A, B, alpha;
+    cin >> A >> B >> alpha;
+
+    double x = (A - B) / 2.0;     // горизонтальная проекция боковой стороны
+    double h = x * tan(alpha);    // высота
+    double S = (A + B) / 2.0 * h;
+
+    cout << S << "\n";
+    return 0;
+}
