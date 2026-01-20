@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double x, y;
+    cin >> x >> y;
+
+    double ax = fabs(x), ay = fabs(y);
+    double ar = (ax + ay) / 2.0;
+    double gr = sqrt(ax * ay);
+
+    cout << ar << "\n" << gr << "\n";
+    return 0;
+}
