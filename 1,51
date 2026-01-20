@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+static double triArea(double x1,double y1,double x2,double y2,double x3,double y3){
+    return fabs(x1*(y2-y3) + x2*(y3-y1) + x3*(y1-y2)) / 2.0;
+}
+
+int main() {
+    double x1,y1,x2,y2,x3,y3,x4,y4;
+    cin >> x1 >> y1 >> x2 >> y2 >> x3 >> y3 >> x4 >> y4;
+
+    double S = triArea(x1,y1,x2,y2,x3,y3) + triArea(x1,y1,x3,y3,x4,y4);
+    cout << S << "\n";
+    return 0;
+}
