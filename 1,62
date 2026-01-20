@@ -1,0 +1,61 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double a;
+    cin >> a;
+
+    // а) a^3 и a^10
+    double a2 = a*a;          
+    double a3 = a2*a;         
+    double a5 = a3*a2;        
+    double a10 = a5*a5;       
+
+    // б) a^4 и a^20
+    double b2 = a*a;          
+    double b4 = b2*b2;        
+    double b5 = b4*a;         
+    double b10 = b5*b5;       
+    double b20 = b10*b10;     
+
+    // в) a^5 и a^13
+    double c2 = a*a;          
+    double c3 = c2*a;         
+    double c5 = c3*c2;        
+    double c10 = c5*c5;       
+    double c13 = c10*c3;      
+
+    double d2 = a*a;        
+    double d3 = d2*a;       
+    double d6 = d3*d3;      
+    double d12 = d6*d6;      
+    double d18 = d12*d6;     
+    double d19 = d18*a;      
+    double d5 = d3*d2;     
+
+    // д) a^2, a^5 и a^17
+    double e2 = a*a;        
+    double e4 = e2*e2;      
+    double e5 = e4*a;      
+    double e10 = e5*e5;    
+    double e15 = e10*e5;    
+    double e17 = e15*e2;   
+
+    // е) a^4, a^12 и a^28
+    double f2 = a*a;      
+    double f4 = f2*f2;     
+    double f8 = f4*f4;       
+    double f12 = f8*f4;       
+    double f24 = f12*f12;    
+    double f28 = f24*f4;     
+
+    // вывод: по подпунктам
+    cout << a3 << " " << a10 << "\n";
+    cout << b4 << " " << b20 << "\n";
+    cout << c5 << " " << c13 << "\n";
+    cout << d5 << " " << d19 << "\n";
+    cout << e2 << " " << e5 << " " << e17 << "\n";
+    cout << f4 << " " << f12 << " " << f28 << "\n";
+
+    return 0;
+}
