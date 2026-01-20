@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double X, Y;
+    cin >> X >> Y;
+
+    double avg = (X + Y) / 2.0;
+    cout << avg << "\n";
+    cout << fabs(X - avg) << "\n";
+    cout << fabs(Y - avg) << "\n";
+    return 0;
+}
