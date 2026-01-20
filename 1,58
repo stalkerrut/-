@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double F = 450.0;
+    double C = (F - 32.0) / 1.8;
+    cout << C << "\n";
+    return 0;
+}
