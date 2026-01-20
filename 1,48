@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    double A, B, h;
+    cin >> A >> B >> h;
+
+    double leg = sqrt(h * h + pow((A - B) / 2.0, 2.0));
+    double P = A + B + 2.0 * leg;
+
+    cout << P << "\n";
+    return 0;
+}
