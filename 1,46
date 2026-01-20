@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double a, b, c;
+    cin >> a >> b >> c;
+
+    double V = a * b * c;
+    double S_bok = 2.0 * c * (a + b);
+
+    cout << V << "\n" << S_bok << "\n";
+    return 0;
+}
