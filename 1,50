@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+static double dist(double x1,double y1,double x2,double y2){
+    return sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
+}
+
+int main() {
+    double x1,y1,x2,y2,x3,y3;
+    cin >> x1 >> y1 >> x2 >> y2 >> x3 >> y3;
+
+    double a = dist(x1,y1,x2,y2);
+    double b = dist(x2,y2,x3,y3);
+    double c = dist(x3,y3,x1,y1);
+
+    double P = a + b + c;
+    double S = fabs(x1*(y2-y3) + x2*(y3-y1) + x3*(y1-y2)) / 2.0;
+
+    cout << P << "\n" << S << "\n";
+    return 0;
+}
