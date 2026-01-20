@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double a;
+    cin >> a;
+
+    double a2  = a * a;     
+    double a4  = a2 * a2;        
+
+    double a3  = a2 * a;     
+    double a6  = a3 * a3;       
+
+    double a7  = a6 * a;        
+
+    double a8  = a4 * a4;      
+
+    double a9  = a6 * a3;      
+
+    double a5  = a4 * a;        
+    double a10 = a5 * a5;        
+
+    double a12 = a6 * a6;      
+    double a13 = a12 * a;      
+
+    double a15 = a10 * a5;    
+
+    double a20 = a10 * a10;     
+    double a21 = a20 * a;       
+
+    double a14 = a7 * a7;        
+    double a28 = a14 * a14;       
+
+    double a16 = a8 * a8;         
+    double a32 = a16 * a16;       
+    double a64 = a32 * a32;       
+
+    cout << a4  << "\n" << a6  << "\n" << a7  << "\n" << a8  << "\n"
+         << a9  << "\n" << a10 << "\n" << a13 << "\n" << a15 << "\n"
+         << a21 << "\n" << a28 << "\n" << a64 << "\n";
+    return 0;
+}
