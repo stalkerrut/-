@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double V1, V2, S;
+    cin >> V1 >> V2 >> S;
+
+    double t = S / (V1 + V2);
+    cout << t << "\n";
+    return 0;
+}
