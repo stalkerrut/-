@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n; cin >> n; // 1..999
+    int a = n % 10;      
+    int b = n / 100;     
+    int c = (n / 10) % 10;
+    int x = a*100 + b*10 + c;
+    cout << x << "\n";
+    return 0;
+}
