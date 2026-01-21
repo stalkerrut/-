@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x, n;
+    cin >> x >> n;                
+
+    int n_from_x = (x % 10) * 100 + (x / 10);
+    cout << n_from_x << "\n";
+
+    int x_from_n = (n % 100) * 10 + (n / 100);
+    cout << x_from_n << "\n";
+
+    return 0;
+}
