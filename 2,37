@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int k; cin >> k; // 1..180
+
+    int idx = (k - 1) / 2;     
+    int number = 10 + idx;     
+    int pairNo = idx + 1;      
+    int digit = (k % 2 == 1) ? (number / 10) : (number % 10);
+
+    cout << pairNo << "\n";
+    cout << number << "\n";
+    cout << digit << "\n";
+    return 0;
+}
