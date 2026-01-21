@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    long long n;
+    cin >> n;
+    cout << n / 3600 << "\n";
+    cout << (n % 3600) / 60 << "\n";
+    cout << n % 60 << "\n";
+    return 0;
+}
