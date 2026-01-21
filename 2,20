@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x; cin >> x;
+    int a = x / 1000;
+    int b = (x / 100) % 10;
+    int c = (x / 10) % 10;
+    int d = x % 10;
+
+    // а)
+    cout << d*1000 + c*100 + b*10 + a << "\n";
+    // б)
+    cout << b*1000 + a*100 + d*10 + c << "\n";
+    // в)
+    cout << a*1000 + c*100 + b*10 + d << "\n";
+    // г) (1) с выделением цифр
+    cout << c*1000 + d*100 + a*10 + b << "\n";
+    // г) (2) без выделения цифр: AB|CD -> CD|AB
+    cout << (x % 100) * 100 + (x / 100) << "\n";
+    return 0;
+}
