@@ -1,0 +1,14 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    int h, m, s;
+    cin >> h >> m >> s;
+
+    double minutes = h * 60.0 + m + s / 60.0;
+    double angle = 0.5 * minutes;     
+
+    cout << fixed << setprecision(6) << angle << "\n";
+    return 0;
+}
