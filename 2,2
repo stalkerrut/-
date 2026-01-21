@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    long long kg;
+    cin >> kg;
+    cout << kg / 100 << "\n";
+    return 0;
+}
