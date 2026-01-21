@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int k; cin >> k; // 1..150
+
+    int idx = (k - 1) / 3; 
+    int num = 101 + idx;
+    int pos = (k - 1) % 3;   
+
+    int digit;
+    if (pos == 0) digit = num / 100;
+    else if (pos == 1) digit = (num / 10) % 10;
+    else digit = num % 10;
+
+    cout << digit << "\n";
+    return 0;
+}
