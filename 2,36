@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a1, a2, a3, b1, b2;
+    cin >> a3 >> a2 >> a1 >> b2 >> b1;
+
+    int s1 = a1 + b1;
+    int r1 = s1 % 10;
+    int c1 = s1 / 10;
+
+    int s2 = a2 + b2 + c1;
+    int r2 = s2 % 10;
+    int c2 = s2 / 10;
+
+    int r3 = a3 + c2; 
+
+    cout << r3 << " " << r2 << " " << r1 << "\n";
+    return 0;
+}
