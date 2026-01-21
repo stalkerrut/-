@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a1, a2, b1, b2;
+    cin >> a2 >> a1 >> b2 >> b1;
+
+    int s1 = a1 + b1;
+    int res1 = s1 % 10;
+    int carry = s1 / 10;
+
+    int res2 = a2 + b2 + carry;
+
+    cout << res2 << " " << res1 << "\n";
+    return 0;
+}
