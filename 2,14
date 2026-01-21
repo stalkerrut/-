@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x; cin >> x;
+    int a = x / 100, bc = x % 100;
+    cout << bc * 10 + a << "\n";
+    return 0;
+}
